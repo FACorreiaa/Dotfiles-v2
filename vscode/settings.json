@@ -1,0 +1,74 @@
+{
+  "mssql.connections": [
+    {
+      "server": "srvsql01.mww-gruppe.de",
+      "database": "DOMUS4000",
+      "authenticationType": "SqlLogin",
+      "user": "iDWELL-DOMUS-User",
+      "password": "",
+      "emptyPasswordInput": false,
+      "savePassword": true,
+      "profileName": "mssql_dev_db",
+      "encrypt": "Mandatory",
+      "trustServerCertificate": true,
+      "connectTimeout": 15,
+      "commandTimeout": 30,
+      "applicationName": "vscode-mssql"
+    }
+  ],
+  // Theme
+  "workbench.colorTheme": "Catppuccin Latte",
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.presets.foldersAllDefaultIcon": true,
+  "vsicons.presets.hideExplorerArrows": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#ffffffbc",
+    "terminalCursor.foreground": "#ffffffbc"
+  },
+  "editor.fontSize": 11,
+  "editor.fontFamily": "CaskaydiaCove Nerd Font",
+  "workbench.statusBar.visible": true,
+  "breadcrumbs.enabled": false,
+  "editor.lineNumbers": "relative",
+  "editor.minimap.enabled": false,
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "update.showReleaseNotes": false,
+  "window.zoomLevel": 1.0,
+  "editor.folding": false,
+  "zenMode.hideLineNumbers": false,
+  //
+  // === Terminal ===
+  //
+  "terminal.external.osxExec": "wezterm.app",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+  "terminal.integrated.cursorStyle": "line",
+  //
+  // === Editor Behavior ===
+  //
+  "editor.stickyScroll.enabled": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "editor.renderWhitespace": "none",
+  "editor.linkedEditing": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.suggest.insertMode": "replace",
+  "workbench.editor.enablePreview": false,
+  "editor.rulers": [
+    79
+  ],
+  //
+  // === Other ===
+  //
+  "redhat.telemetry.enabled": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "telemetry.telemetryLevel": "off",
+  "aws.telemetry": false,
+  "vs-kubernetes": {
+    "vscode-kubernetes.helm-path-mac": "/Users/fernando_idwell/.vs-kubernetes/tools/helm/darwin-arm64/helm",
+    "vscode-kubernetes.minikube-path-mac": "/Users/fernando_idwell/.vs-kubernetes/tools/minikube/darwin-arm64/minikube"
+  }
+}
